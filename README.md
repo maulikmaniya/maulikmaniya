@@ -114,7 +114,7 @@ If you’re working on:
 
 I’m always happy to talk.
 
-📌 GitHub: https://github.com/Maulik-Maniya  
+📌 GitHub: https://github.com/MaulikManiya  
 
 ---
 
