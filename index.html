@@ -56,6 +56,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -201,79 +203,153 @@
                 <!-- Skill Card 1 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-blue-600 transition-colors">💻 Languages & Frameworks</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">C#</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">ASP.NET Core</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">ASP.NET MVC</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">Blazor</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">Angular</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">TypeScript</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">GraphQL</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">REST API</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-csharp-plain text-purple-600 text-lg mr-2"></i>C#
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-dotnetcore-plain text-indigo-600 text-lg mr-2"></i>ASP.NET Core
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-dot-net-plain text-blue-600 text-lg mr-2"></i>ASP.NET MVC
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-blazor-original text-purple-500 text-lg mr-2"></i>Blazor
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-angularjs-plain text-red-600 text-lg mr-2"></i>Angular
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-typescript-plain text-blue-500 text-lg mr-2"></i>TypeScript
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-graphql-plain text-pink-500 text-lg mr-2"></i>GraphQL
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-server text-slate-500 text-lg mr-2"></i>REST API
+                        </span>
                     </div>
                 </div>
 
                 <!-- Skill Card 2 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-indigo-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-indigo-600 transition-colors">🏗️ Architecture</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">Microservices</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">DDD</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">CQRS</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">Clean Architecture</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">Event-Driven Architecture</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">SOLID</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">API Gateway</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-cubes text-indigo-500 text-lg mr-2"></i>Microservices
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-layer-group text-indigo-500 text-lg mr-2"></i>DDD
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-code-branch text-indigo-500 text-lg mr-2"></i>CQRS
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-broom text-indigo-500 text-lg mr-2"></i>Clean Architecture
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-bolt text-indigo-500 text-lg mr-2"></i>Event-Driven Architecture
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-check-double text-indigo-500 text-lg mr-2"></i>SOLID
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-door-open text-indigo-500 text-lg mr-2"></i>API Gateway
+                        </span>
                     </div>
                 </div>
 
                 <!-- Skill Card 3 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-purple-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-purple-600 transition-colors">☁️ Cloud & DevOps</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">AWS (S3, EC2, Lambda)</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Azure DevOps</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Docker</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Kubernetes</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Jenkins</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Git</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-code text-slate-500 text-lg mr-2"></i>AWS (S3, EC2, Lambda)
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-azure-plain text-[#007FFF] text-lg mr-2"></i>Azure DevOps
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-docker-plain text-[#2496ED] text-lg mr-2"></i>Docker
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-kubernetes-plain text-[#326CE5] text-lg mr-2"></i>Kubernetes
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-jenkins-plain text-[#D24939] text-lg mr-2"></i>Jenkins
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-git-plain text-[#F05032] text-lg mr-2"></i>Git
+                        </span>
                     </div>
                 </div>
 
                 <!-- Skill Card 4 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-blue-600 transition-colors">🗄️ Databases & CMS</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">SQL Server</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">MongoDB</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">Elasticsearch</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">Vector Database</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">EF Core</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-blue-50 group-hover:border-blue-200 group-hover:text-blue-700 transition-colors">Squidex CMS</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-microsoftsqlserver-plain text-red-600 text-lg mr-2"></i>SQL Server
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-mongodb-plain text-[#47A248] text-lg mr-2"></i>MongoDB
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-elasticsearch-plain text-[#005571] text-lg mr-2"></i>Elasticsearch
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-database text-blue-500 text-lg mr-2"></i>Vector Database
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-plug text-blue-500 text-lg mr-2"></i>EF Core
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-cube text-blue-500 text-lg mr-2"></i>Squidex CMS
+                        </span>
                     </div>
                 </div>
 
                 <!-- Skill Card 5 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-indigo-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-indigo-600 transition-colors">🤖 AI & Machine Learning</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">GenAI</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">RAG AI</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">RAG Agentic</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">ML Models</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-indigo-50 group-hover:border-indigo-200 group-hover:text-indigo-700 transition-colors">OpenAI</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-brain text-pink-500 text-lg mr-2"></i>GenAI
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-robot text-pink-500 text-lg mr-2"></i>RAG AI
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-network-wired text-pink-500 text-lg mr-2"></i>RAG Agentic
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-chart-line text-pink-500 text-lg mr-2"></i>ML Models
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-microchip text-pink-500 text-lg mr-2"></i>OpenAI
+                        </span>
                     </div>
                 </div>
 
                 <!-- Skill Card 6 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-purple-200 transition-all duration-300 group">
                     <h3 class="text-xl font-heading font-bold text-slate-900 mb-6 group-hover:text-purple-600 transition-colors">🔄 Integration</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Apache Kafka</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Azure Service Bus</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">OAuth 2.0</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Stripe</span>
-                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-lg border border-slate-200 group-hover:bg-purple-50 group-hover:border-purple-200 group-hover:text-purple-700 transition-colors">Twilio</span>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-apachekafka-original text-slate-800 text-lg mr-2"></i>Apache Kafka
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-cloud text-blue-500 text-lg mr-2"></i>Azure Service Bus
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="devicon-oauth-plain text-slate-700 text-lg mr-2"></i>OAuth 2.0
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-brands fa-stripe text-[#008CDD] text-lg mr-2"></i>Stripe
+                        </span>
+                        <span class="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 hover:shadow-sm transition-all flex items-center cursor-default">
+                            <i class="fa-solid fa-comment-sms text-[#F22F46] text-lg mr-2"></i>Twilio
+                        </span>
                     </div>
                 </div>
             </div>
